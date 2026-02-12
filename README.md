@@ -22,7 +22,7 @@ Monotone_Bounded_Theorem.v (* Depends on Dedekind_Theorem_Proof_By_Sup_Inf_Princ
 
 Archimedean_Theorems1.v (* Depends on Monotone_Bounded_Theorem.v *)
 
-Nested_Closed_Interval_Theorem.v (* Depends on Monotone_Bounded_Theorem.v *)
+Nested_Closed_Interval_Theorem.v (* Depends on Archimedean_Theorems1.v *)
 
 Finite_Covering_Theorem.v (* Depends on Nested_Closed_Interval_Theorem.v *)
 
