@@ -3,7 +3,7 @@
 The completeness theorems of real numbers are the foundation of calculus and mathematical analysis, playing a crucial role in the transition from calculus to analysis. These theorems have various formulations, and this paper formally characterizes the equivalence of multiple completeness theorems of real numbers based on the MK axiomatic set theory, including Dedekind's Fundamental Theorem, the Supremum Theorem, the Monotone Convergence Theorem, the Nested Interval Theorem, the Heine-Borel Theorem, the Bolzano-Weierstrass Theorem, and the Sequential Compactness Theorem.
 Our work builds upon the MK axiomatic set theory and formal proofs in the foundations of analysis. Related links: https://github.com/bbLeng/Formalization-of-number-systems
 
-Files
+# Files
 The proof is based on Morse-Kelley axiomatic set theory, which includes the following .v files:
 
 Pre_MK_Logic.v
@@ -37,5 +37,5 @@ Cauchy_Convergence_Criterion.v (* Depends on Sequential_Compactness_Theorem.v *)
 Dedekind_Theorem_Proof_By_Cauchy_Convergence_Criterion.v (* Depends on Cauchy_Convergence_Criterion.v *)
 
 
-Authors
+# Authors
 This project is implemented by Ce Zhang, Guowei Dou, Wensheng Yu.
