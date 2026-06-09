@@ -69,8 +69,7 @@ Qed.
 
 Fact minRC' : ∀ X, (-X) ∈ RC -> X ∈ RC.
 Proof.
-  intros. 
-  (* 怎么写比较快？ *)
+  intros.
   assert(dom(minR) = RC). { apply minRdom. }
   assert(Function minR). { apply mirf. }
   assert (Ensemble (-X)); unfold Ensemble; eauto.
